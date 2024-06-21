@@ -1,0 +1,50 @@
+@media screen and (max-width: 480px) {
+    .hero-heading {height: 150px;}
+    .hero-heading h1 {font-size: 28px;}
+    .hero-text {padding-top: 50px; text-align: center; height: 100%; margin-bottom: 20px;}
+    .hero-text h3 {font-size: 22px; font-weight: 500;}
+    .hero-text p {font-weight: normal; font-size: 13px;}
+    .us_section .us_container .box {margin-bottom: 30px;}
+    .cta {background: #000A4D; text-align: center;}
+    .cta-text {margin-bottom: 30px;}
+    .heading_container h2 {text-align: start;}
+    .testimonial {margin-bottom: 50px;} .last-t {margin-bottom: 0;}
+    .contact4 .contact-box {padding-block: 3rem;}
+    .info_items {width: 100%; flex-wrap: wrap;}
+    .info_items .item .detail-box {font-size: 12px;}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .hero-heading {height: 150px;}
+    .hero-heading h1 {font-size: 35px;}
+    .hero-text {height: 100%; padding-top: 30px; text-align: center;}
+    .hero-text h3 {font-size: 20px;}
+    .hero-text p {font-size: 14px; font-weight: normal; padding-inline: 20px;}
+    .hero-img {padding: 30px; padding-left: 20px;}
+    .our-team {margin-bottom: 50px;}
+    .heading_container {justify-content: center;}
+    .cta {background: #000A4D; text-align: center; padding-inline: 20px;}
+    .cta h2 {font-size: 28px;}
+    .cta-btns {margin-top: 30px;}
+    .testimonial {margin-bottom: 50px;}
+    .last-t {margin-bottom: 0;}
+    .contact4 .contact-box {padding: 3rem;}
+    .info_items {width: 90%;}
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .hero-heading {height: 200px;}
+    .hero-heading h1 {font-size: 50px;}
+    .hero-text {height: 100%; margin-bottom: 50px; padding-top: 50px; text-align: center;}
+    .us_section .us_container .box {margin-bottom: 50px;}
+    .heading_container {justify-content: center;}
+    .cta h2 {font-size: 30px;}
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .hero_area {height: 550px;}
+    .hero-text {height: 350px; padding-top: 80px;}
+    .hero-text h3 {font-size: 20px;}
+    .hero-text p {font-weight: normal; font-size: 15px;}
+    .p-md-00 {padding-right: 0;}
+}
