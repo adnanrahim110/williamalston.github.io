@@ -129,7 +129,7 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  background: linear-gradient(to left, rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../images/hero1.jpg);
+  background: linear-gradient(to left, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/hero1.jpg);
   background-color: #000000;
   background-size: cover;
   background-attachment: fixed;
@@ -269,27 +269,16 @@ a:focus {
 
 .navbar-brand {
   padding-left: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
 }
 
-.navbar-brand span {
-  font-size: 22px;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #ffffff;
-  position: relative;
-  z-index: 3;
+.navbar-brand img {
+  width: 120px;
+  height: auto;
 }
+
 
 .custom_nav-container {
   z-index: 99999;
-  padding: 15px 0;
 }
 
 .custom_nav-container .navbar-toggler {
