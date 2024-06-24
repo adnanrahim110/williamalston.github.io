@@ -666,7 +666,11 @@ a:focus {
 
 .contact4 {
   font-family: "Montserrat", sans-serif;
-  background-color: #27223f;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/contact-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #8d97ad;
   font-weight: 300;
 }
