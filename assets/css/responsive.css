@@ -12,6 +12,7 @@
     .contact4 .contact-box {padding-block: 3rem;}
     .info_items {width: 100%; flex-wrap: wrap;}
     .info_items .item .detail-box {font-size: 12px;}
+    .popup-free {max-width: 170px; right: 10px;}
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -30,6 +31,9 @@
     .last-t {margin-bottom: 0;}
     .contact4 .contact-box {padding: 3rem;}
     .info_items {width: 90%;}
+    .popup-content {width: 75%;}
+    .popup-free {max-width: 180px; right: 10px;}
+    .price-box .price {line-height: 40px;}
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -39,6 +43,8 @@
     .us_section .us_container .box {margin-bottom: 50px;}
     .heading_container {justify-content: center;}
     .cta h2 {font-size: 30px;}
+    .popup-content {max-width: 550px; overflow: hidden;}
+    .popup-free {right: 10px;}
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {

@@ -4,12 +4,131 @@
 }
 
 /*===============================
+    Popup
+===============================*/
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 9991;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+}
+
+.popup h1 {
+  font-size: 1.5vw;
+  padding-inline: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.title h2 {
+  font-size: 3.5vw;
+  font-weight: 700;
+  color: #e4a828;
+  margin-bottom: 20px;
+}
+
+.title span {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -10px;
+  font-size: 1.2vw;
+  color: red;
+}
+
+.price-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.price-box .price {
+  font-size: 4vw;
+  font-weight: 700;
+  color: #e42828;
+}
+
+.price-box .btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 1.3vw;
+  padding-block: 10px;
+  transition: all .3s linear;
+}
+
+.price-box .btn:hover {
+  background-color: #e4a828;
+  color: var(--primary-color);
+}
+
+.popup-free {
+  position: fixed;
+  z-index: 9992;
+  bottom: 0;
+  right: 20px;
+  width: 100%;
+  max-width: 200px;
+}
+
+.popup-free img {
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.popup-close {
+  position: absolute;
+  right: 0;
+  color: #aaa;
+  font-size: 30px;
+  font-weight: bold;
+  margin-inline: 10px;
+}
+
+.popup-close:hover,
+.popup-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (max-width: 600px) {
+  .popup-content {
+      width: 80%;
+  }
+}
+
+/*===============================
     Scroll Top
 ===============================*/
 #scroll-Top .return-to-top {
   position: fixed;
-  right: 30px;
-  bottom: 30px;
+  right: 10px;
+  bottom: 5px;
   display: none;
   width: 40px;
   line-height: 40px;
@@ -278,7 +397,7 @@ a:focus {
 
 
 .custom_nav-container {
-  z-index: 99999;
+  z-index: 999;
 }
 
 .custom_nav-container .navbar-toggler {
